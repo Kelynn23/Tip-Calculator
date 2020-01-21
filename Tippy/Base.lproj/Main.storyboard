@@ -70,7 +70,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygi-QY-OEK">
-                                <rect key="frame" x="293" y="379" width="45" height="21"/>
+                                <rect key="frame" x="293" y="379" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -89,6 +89,7 @@
                         <outlet property="billField" destination="19H-Uf-QpE" id="g70-P9-l0H"/>
                         <outlet property="tipControl" destination="2TR-sY-2DL" id="lrX-ka-eah"/>
                         <outlet property="tipLabel" destination="5hG-Wc-7VQ" id="INg-bG-pvs"/>
+                        <outlet property="totalAmount" destination="Ygi-QY-OEK" id="ffU-gV-bPW"/>
                         <outlet property="totalLabel" destination="xwK-Dx-v00" id="QSC-Be-BSi"/>
                     </connections>
                 </viewController>
